@@ -1,0 +1,124 @@
+:root {
+
+    --background-color: #F9F7F7;
+    --content-background-color: #DBE2EF;
+    --header-footer-background-color: #3F72AF;
+    --foot-font-color: #112D4E;
+    --paragraph-color: #112D4E;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    max-width: 1440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--background-color);
+}
+
+.container {
+    background-color: var(--content-background-color);
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    color: var(--paragraph-color);
+    background-color: var(--header-footer-background-color);
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px 0 0 0;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 40px;
+}
+
+.content {
+    width: 100%;
+    
+}
+
+.sec-content{
+    width: 70%;
+    background-color: var(--content-background-color);
+    float: left;
+    padding: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.propaganda {
+    width: 30%;
+        margin-top: 100px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: var(--content-background-color);
+    color: var(--paragraph-color);
+}
+
+.propaganda img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    box-sizing: border-box;
+    color: var(--content-background-color);
+    background-color: var(--header-footer-background-color);
+    padding: 10px;
+    width: 100%;
+}
+
+.sec-title .sec-paragraph {
+    margin: 0;
+}
+
+.sec-paragraph {
+    text-align: justify;
+    margin-right: 15px;
+    float: left;
+}
+
+.img-produto img {
+    width: 20%;
+    margin: 5px;
+    margin-right: 3.5%;
+    float: right;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+    color: var(--paragraph-color);
+}
+
+a:hover {
+    transition: 0.5;
+    color: #F9F7F7;
+}
+
+h1:hover {
+    transition: 0.5;
+    color: #F9F7F7;
+}
